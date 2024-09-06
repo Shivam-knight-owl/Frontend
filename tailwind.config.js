@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBeige: '#f8f4eb', // Example hex color
+        customComplement:"#EFE4D3"
+      },
+      fontFamily: {
+        didot: [ "GFS Didot", 'serif'], // Add the custom font family
+      },
+    },
   },
   plugins: [],
 }
