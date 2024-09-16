@@ -24,7 +24,7 @@ export function Navbar() {
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Quiz</li>
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Constitution</li>
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Timeline</li>
-                        <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Chatbot</li>
+                        <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg"><Link to="/user/chatbot">Chatbot</Link></li>
                     </ul>
                 </nav>
                 <button className="bg-amber-700 text-white px-4 py-2 rounded hover:bg-amber-600">Get Started</button>
