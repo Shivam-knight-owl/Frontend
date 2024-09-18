@@ -37,7 +37,7 @@ const Landing = () => {
   ];
 
   return (
-    <div className="bg-customBeige text-stone-800 min-h-screen">
+    <div className="bg-customBeige text-stone-800">
       <Navbar/>
       <main className="container mx-auto px-4">
         <section className="py-10">

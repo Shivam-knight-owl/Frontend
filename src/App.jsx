@@ -1,7 +1,7 @@
 import Landing from './pages/Landing'
 import ChatBot from './pages/ChatBot'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import TimelineComponent from './components/timeline'
+import TimelineComponent from './pages/timeline'
 function App() {
 
   return (

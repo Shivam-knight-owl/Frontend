@@ -23,7 +23,7 @@ export function Navbar() {
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Game</li>
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Quiz</li>
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Constitution</li>
-                        <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg">Timeline</li>
+                        <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg"><Link to="/timeline">Timeline</Link></li>
                         <li className="cursor-pointer hover:text-amber-600 font-semibold text-lg"><Link to="/user/chatbot">Chatbot</Link></li>
                     </ul>
                 </nav>
