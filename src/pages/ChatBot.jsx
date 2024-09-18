@@ -4,8 +4,8 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function Component() {
   return (
-    <div className="bg-customBeige">
-      <div className="flex flex-col h-screen w-full max-w-2xl mx-auto bg-background text-foreground">
+    <div className="bg-customBeige h-screen flex justify-center items-center">
+      <div className="flex flex-col h-[90vh] w-full max-w-2xl mx-auto bg-background text-foreground">
         <header className="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Avatar className="w-8 h-8  text-stone-800">
